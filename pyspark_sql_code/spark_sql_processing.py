@@ -8,7 +8,7 @@ from pyspark.sql.types import *
 import datetime
 
 # define params
-s3_target_bucket_name = 'mattsona-public'
+s3_target_bucket_name = 'mattsona-spark-demo'
 
 sc = SparkContext() # create a spark context
 sql_context = HiveContext(sc) # create a Hive context
